@@ -1,0 +1,47 @@
+# OS, local IDE state, caches and temporary files
+.DS_Store
+._*
+.idea/
+*.iml
+.vscode/*
+!.vscode/tasks.json
+*.swp
+*.swo
+*~
+.~*
+*.tmp
+*.log
+.cache/
+
+# Local credentials and private configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+
+# Python caches, environments and packaging output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Outputs produced by pandas exercises
+/grammars/modified.csv
+/grammars/modified.txt
